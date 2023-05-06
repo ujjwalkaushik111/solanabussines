@@ -345,24 +345,24 @@
 .timeline_box_one::after {
     position: absolute;
     content: '';
-    height: 20px;
+    height: 28px;
     background-color: white;
-    width: 20px;
+    width: 28px;
     border-radius: 50%;
     top: 0;
-    right: -10px;
+    right: -14px;
     z-index: 1;
 }
 
 .timeline_box_two::after {
     position: absolute;
     content: '';
-    height: 20px;
+    height: 28px;
     background-color: white;
-    width: 20px;
+    width: 28px;
     border-radius: 50%;
     top: 0;
-    left: -10px;
+    left: -15px;
     z-index: 1;
 }
 
@@ -440,12 +440,13 @@ input[type="checkbox"] {
 
 .accordion-button:not(.collapsed) {
     background-color: #FFF03F !important;
-
+    color: black !important;
 }
+
 
 .accordion-button:focus {
     z-index: 3;
-    border-color: var(--bs-accordion-btn-focus-border-color);
+    /* border-color: var(--bs-accordion-btn-focus-border-color); */
     outline: 0;
     box-shadow: unset !important;
 }
@@ -555,11 +556,11 @@ input[type="checkbox"] {
     }
 
     .timeline_box_one::after {
-        left: 17px;
+        left: 11px;
     }
 
     .timeline_box_two::after {
-        left: 16px;
+        left: 12px;
     }
 
     .ms-5-md {
