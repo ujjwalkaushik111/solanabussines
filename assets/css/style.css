@@ -12,7 +12,7 @@
 }
 
 .name-red {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -27,7 +27,7 @@
 .button-red {
     color: #F4241E;
     background: #FFFFFF;
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -37,7 +37,7 @@
 }
 
 .name {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -46,7 +46,7 @@
 }
 
 .h-welcome {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -60,7 +60,7 @@
 }
 
 .h1-roadmap {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -71,7 +71,7 @@
 }
 
 .h-it {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -80,7 +80,7 @@
 }
 
 .p-have {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     max-width: 591px;
     font-weight: 400;
@@ -99,7 +99,7 @@
 }
 
 .h1-Amet {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -108,7 +108,7 @@
 }
 
 .p-Enim {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -118,7 +118,7 @@
 }
 
 .button-discover {
-    font-family: 'Roboto';
+    font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -130,8 +130,15 @@
     border: none;
 }
 
+header ul li a:hover {
+    color: #F4241E;
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
 .h1-supplies {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 20px;
@@ -289,7 +296,7 @@
 
 .text-align-jhone {
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     margin-top: 25px;
     font-weight: 700;
@@ -298,7 +305,7 @@
 }
 
 .text-align-manager {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -313,7 +320,7 @@
 
 .list-style {
     /* padding-left: 12px; */
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -367,7 +374,7 @@
 }
 
 .h2-sun {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -377,7 +384,7 @@
 }
 
 .No-color {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -387,7 +394,7 @@
 }
 
 .Name-color {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -396,7 +403,7 @@
 }
 
 .h1-team {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -407,7 +414,7 @@
 }
 
 .h3-FAQ {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -417,7 +424,7 @@
 }
 
 .h3-copyright {
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -509,6 +516,10 @@ input[type="checkbox"] {
 
     .h-it {
         font-size: 38px;
+    }
+
+    .ps-4 {
+        padding-bottom: 20px;
     }
 
 }
